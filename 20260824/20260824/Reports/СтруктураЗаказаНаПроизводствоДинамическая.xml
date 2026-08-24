@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Report uuid="db896980-bf6c-4d42-ab62-00e267d84f0a">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.СтруктураЗаказаНаПроизводствоДинамическая" category="Object">
+				<xr:TypeId>de2aa5cb-5a0a-43d8-b53e-bf23a2372f39</xr:TypeId>
+				<xr:ValueId>ddc7b543-72ff-4373-abc6-77943f5cb710</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.СтруктураЗаказаНаПроизводствоДинамическая" category="Manager">
+				<xr:TypeId>1a368bd1-13d6-4611-8ccc-cd548a1e7215</xr:TypeId>
+				<xr:ValueId>12e9fdcf-6413-4fb3-9659-8d26788e896b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтруктураЗаказаНаПроизводствоДинамическая</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8078fcce-0831-4870-adb4-0e89b2836635</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаОтчета</Form>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

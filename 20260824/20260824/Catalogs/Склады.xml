@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="6f727bea-7cde-4145-ab01-76a0d4d729c2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Склады" category="Object">
+				<xr:TypeId>064a7508-c838-4bfe-9fbd-45375a244f6c</xr:TypeId>
+				<xr:ValueId>13443f54-a121-49e4-8489-b89be7faf9a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Склады" category="Ref">
+				<xr:TypeId>76b8558e-76c6-4ac7-b0df-9990baf41124</xr:TypeId>
+				<xr:ValueId>b1f54741-06cc-4631-aee1-d5ab514d1098</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Склады" category="Selection">
+				<xr:TypeId>b3122356-7d98-4e65-8d9b-f96390beae60</xr:TypeId>
+				<xr:ValueId>a4906da8-e6db-4555-8790-a1dc33706896</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Склады" category="List">
+				<xr:TypeId>1bb2cee1-24fc-4b61-81c8-a0de8e0cc4da</xr:TypeId>
+				<xr:ValueId>8b2d6f5d-f0e8-4805-b91e-2bbda07210a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Склады" category="Manager">
+				<xr:TypeId>0894c4ba-198f-46aa-84bb-0c48cf7ab918</xr:TypeId>
+				<xr:ValueId>91b4ab21-0a6f-49a7-8e8b-13e22080dfde</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Склады</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>07b3c407-9a3a-4f94-b798-226c96d66840</ExtendedConfigurationObject>
+			<Hierarchical>true</Hierarchical>
+			<DescriptionLength>50</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="89c6362d-4917-437e-8152-fc322c8ebe80">
+				<Properties>
+					<Name>СБ_СкладНЗПИлиСкладСбыта</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад НЗП или склад сбыта</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="580b3c30-bcc3-4841-be50-da87acf7fb97">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТекущаяДолжностьОтветственного</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>93814f1d-821f-41fb-85af-3077eee60871</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e52dd3bf-e55c-4294-b8b2-f8064b461d44">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачалаОрдернойСхемыПриПоступлении</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>11614cb8-99b7-4fc6-a60f-6b632a30543a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dd062aa3-3571-424e-bbb1-040b126cf290">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0c471353-9c40-4232-adee-979899e9bf76</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="471c1d65-7c79-4b85-8e74-8564872ad876">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьОрдернуюСхемуПриПоступлении</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6e8f132c-946f-45cd-bc8f-57819f36624e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1d245f2e-7dae-4a86-865d-6dfa84f6a680">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользованиеРабочихУчастков</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d3d21729-12db-4820-9c42-0d90411f1408</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ИспользованиеСкладскихРабочихУчастков</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="19c1e9cf-1231-4836-a5ef-486ce52dc893">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипСклада</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b5bcff01-098c-4767-97ce-2ea12d0b26a3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыСкладов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="17590983-a0a1-45a9-b545-c0d65e938f02">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьСкладскиеПомещения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8447539a-9f16-4fa7-9ce9-c5b28e7d9e4f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="98f68f67-633c-4189-ba1e-65e33c541705">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БизнесРегион</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d1a977da-a51e-4146-b4ce-26c08254e82e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БизнесРегионы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1265a782-e899-428d-af7b-95d2b04f7459">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЦеховаяКладовая</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>94ad3eb3-99b0-4182-a385-cf78a614dd8e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="075a8d0d-1bb7-40e3-ab27-8d754c825fe2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтролироватьКачествоПоступившегоТовара</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3bcf0c6b-46c0-4e5b-9dd7-1b757718f1df</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="88405b46-017a-4607-9f8b-e394e2a1e244">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИсточникИнформацииОЦенахДляПечати</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c012553b-3166-4faa-8b26-aa4fa06f3d49</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ИсточникиИнформацииОЦенахДляПечати</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="39b9dd8e-c353-4b9a-aa6b-86d6a09edf4b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УчетныйВидЦены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>705875bd-327b-4406-8971-1f2e3104e325</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="987d6f05-40fc-4136-bdef-ddfef21e8f06">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РозничныйВидЦены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2f9ce8f1-8c66-4086-96dc-b98cd095f6d8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="507a8956-4776-4249-9291-725eafd5e126">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТекущийОтветственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2cfebe7e-1d28-4aa9-82bc-ad1239d29edc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4885e9f3-7c97-4779-8866-1002f8ba57e1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Календарь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>57e0aed5-e49a-43a9-9de3-168a2b8ab3a5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Календари</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d9d796f9-1321-4bc2-a5d4-806791b2ddb0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьСтатусыПриходныхОрдеров</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>645fc2cd-4dd7-4d17-bb7b-03bd709a1390</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9178d606-eb16-4254-a5b1-1ef0cf9145f9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьОрдернуюСхемуПриОтгрузке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f41c975-1f0d-4d95-b6fc-9938d4d8d4ff</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="da97f2d9-ae11-4fec-b7e4-291d783f47c3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачалаОрдернойСхемыПриОтгрузке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>14004998-ff9c-4a15-8918-de3992d8a065</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="38ef4482-08ac-4200-b7dc-bf64aeb1b2ab">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьСтатусыРасходныхОрдеров</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d7c7e034-87e6-46a2-95d8-673727c1a2d2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3aea49e9-7ed6-4782-beca-8ff8e4a79703">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьОрдернуюСхемуПриОтраженииИзлишковНедостач</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f459e2e3-93ba-4b46-9b48-38ca910f782c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b7b45fa7-f25a-4368-9339-a85b6359cb56">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f555b3a4-c778-4c47-b2cd-59b56ab921ff</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e5e443e8-5072-4550-866b-8c21809f88fe">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачалаАдресногоХраненияОстатков</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>abcd819f-8d0a-483d-a65a-0472e3c63461</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c5331385-59f7-48ec-9736-75bf8e90c746">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИспользоватьСтатусыПересчетовТоваров</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f317d59f-53ea-4eb3-960e-51d09cc25737</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e638b562-cb33-49f6-bb89-7eaaf8510d78">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтролироватьОперативныеОстатки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2fa0a18b-71bc-4262-a64b-d02e9ba948a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f0210965-dc51-4922-bba3-37fa15f9cb4e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачалаИспользованияСкладскихПомещений</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>105516fc-fd0b-4415-ac14-2256fcb2b0d1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a48043f2-2886-4c1b-98c9-bdbf6c217b01">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НастройкаАдресногоХранения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e7df8c54-b75d-4bea-98ad-344c4dd6e693</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.НастройкиАдресногоХранения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

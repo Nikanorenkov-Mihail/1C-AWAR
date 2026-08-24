@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="7512571e-b5c3-492d-8b44-934f35a1c931">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыАналитическогоУчетаНоменклатуры" category="Object">
+				<xr:TypeId>19869bcd-4bdf-4793-b6c8-73e17e8dc77d</xr:TypeId>
+				<xr:ValueId>bdfa6427-9359-41c3-8068-d64011c4ca68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыАналитическогоУчетаНоменклатуры" category="Ref">
+				<xr:TypeId>9c4734e9-bcec-4b23-ac2a-d971a8bda5e4</xr:TypeId>
+				<xr:ValueId>57730126-3473-4f3c-8650-a0751098eb5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыАналитическогоУчетаНоменклатуры" category="Selection">
+				<xr:TypeId>d1d4cd4a-1f0a-4111-836b-e603c4c28d41</xr:TypeId>
+				<xr:ValueId>a43b3ef2-5dcd-4db2-bcc4-f7d728ff1a5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыАналитическогоУчетаНоменклатуры" category="List">
+				<xr:TypeId>91434f6b-ab4d-4d95-bf1e-5556276a8153</xr:TypeId>
+				<xr:ValueId>08eac7e4-69c8-4b57-8631-1a463bb522db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыАналитическогоУчетаНоменклатуры" category="Manager">
+				<xr:TypeId>b17f476c-ab7c-497a-837f-b193fe002753</xr:TypeId>
+				<xr:ValueId>48b1e329-a9e6-4449-a98d-1815201d3ec0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГруппыАналитическогоУчетаНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>029cd47a-7372-4034-b645-48f00dc52f46</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

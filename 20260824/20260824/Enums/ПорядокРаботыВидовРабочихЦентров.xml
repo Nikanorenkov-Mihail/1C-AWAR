@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="90b278c9-7da3-4b7a-a80c-5966a1973ae2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокРаботыВидовРабочихЦентров" category="Ref">
+				<xr:TypeId>e2088f81-8727-41e2-80b1-be57f655152a</xr:TypeId>
+				<xr:ValueId>0675423a-aba9-461e-924e-6465114f2c84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокРаботыВидовРабочихЦентров" category="Manager">
+				<xr:TypeId>f424ef14-974b-443d-9da0-560bb640df5b</xr:TypeId>
+				<xr:ValueId>baa82e67-aaae-492b-a4e0-28004fdb88d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокРаботыВидовРабочихЦентров" category="List">
+				<xr:TypeId>880f8ef8-4ca0-4f0c-92e9-8373f332c777</xr:TypeId>
+				<xr:ValueId>83cf9e84-872d-4038-9686-e1337c698df4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПорядокРаботыВидовРабочихЦентров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>da7fc7cf-6b6a-4973-8c31-71b8f0009fcb</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

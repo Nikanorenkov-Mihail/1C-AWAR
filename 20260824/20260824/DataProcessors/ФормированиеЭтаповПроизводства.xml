@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="96e686b4-7e5b-427e-a116-fb66befeccd1">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ФормированиеЭтаповПроизводства" category="Object">
+				<xr:TypeId>367cc8d8-7570-4dc0-8e5f-f9d71042d8bb</xr:TypeId>
+				<xr:ValueId>59ee3380-27b2-4f77-a39b-75908ab3fe37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ФормированиеЭтаповПроизводства" category="Manager">
+				<xr:TypeId>9c456e4e-5197-4a81-92ee-28f4617c3c74</xr:TypeId>
+				<xr:ValueId>935f0871-fcd8-48ef-b9d5-64ddb98e1591</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ФормированиеЭтаповПроизводства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d70f1181-cad2-40a4-ae6c-5ac9e69830c2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Template>СБ_НоменклатурныйПлан</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

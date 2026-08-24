@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="5f2a6eda-9478-4f47-a460-ce10d97605d4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПолитикиУчетаСерий" category="Object">
+				<xr:TypeId>62030abd-90b7-4a37-a3a2-5ec3b8e7fff9</xr:TypeId>
+				<xr:ValueId>a50dc76c-c3e9-4606-a653-d52426fd308a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПолитикиУчетаСерий" category="Ref">
+				<xr:TypeId>7c064161-3c95-4a9a-b64f-4e6ed596c5da</xr:TypeId>
+				<xr:ValueId>4d09578f-7159-4012-aad9-8ba6c6447860</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПолитикиУчетаСерий" category="Selection">
+				<xr:TypeId>6f906819-34cc-4380-8ca4-20ba67b955ed</xr:TypeId>
+				<xr:ValueId>d251ef05-bf12-448f-99e2-53d48ebbebb9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПолитикиУчетаСерий" category="List">
+				<xr:TypeId>d62d0c48-dbd1-4b18-a9ab-29976f0f69a8</xr:TypeId>
+				<xr:ValueId>bffa3467-1666-4fc6-ad2a-2072b17c43c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПолитикиУчетаСерий" category="Manager">
+				<xr:TypeId>7eefba20-2a2b-4c10-8f7f-30e3b4a6521e</xr:TypeId>
+				<xr:ValueId>502eebf0-7401-4bd7-a3d8-4cc0404b0065</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПолитикиУчетаСерий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7eacf257-079b-44c1-9ffb-45e01a080706</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

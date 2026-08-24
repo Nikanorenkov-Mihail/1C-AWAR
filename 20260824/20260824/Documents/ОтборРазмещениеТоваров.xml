@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6ca7e715-6d0c-48a0-be38-dbacf80a0be6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтборРазмещениеТоваров" category="Object">
+				<xr:TypeId>586fb1f6-ff97-46e5-9f0f-cc46a56952c5</xr:TypeId>
+				<xr:ValueId>93c2c9a0-e3b9-454e-9239-c7b469386c1f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтборРазмещениеТоваров" category="Ref">
+				<xr:TypeId>e22ffb6e-2a42-4986-9b17-dff2cc69db60</xr:TypeId>
+				<xr:ValueId>f8a4638a-1ee5-43a7-8380-c523c839566b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтборРазмещениеТоваров" category="Selection">
+				<xr:TypeId>57634d6b-5f68-4567-8068-1f304620cee3</xr:TypeId>
+				<xr:ValueId>d4460527-f96a-4005-8b93-2b80d9c8b6de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтборРазмещениеТоваров" category="List">
+				<xr:TypeId>095e1284-41fe-4160-8b37-0ed43d878675</xr:TypeId>
+				<xr:ValueId>87c91a75-8faa-453c-88d1-3046985a2f41</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтборРазмещениеТоваров" category="Manager">
+				<xr:TypeId>7a4513b5-c3ec-4b9b-ae48-5291fcd927cf</xr:TypeId>
+				<xr:ValueId>c04f52d1-383b-4132-9b51-f381eb68f91b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтборРазмещениеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2e75710a-40d0-411b-af3a-656291a7e3ff</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="87109ce9-b258-45b2-ad90-8c3af11a1b71">
+		<Name>Справочники_ВидыНоменклатуры</Name>
+		<Code>000000003</Code>
+		<Description>Виды номенклатуры</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="43be4290-aa73-4c94-a3b6-c63438983335">
+				<Name>ГотоваяПродукция</Name>
+				<Code>000000004</Code>
+				<Description>Готовая продукция</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="01611ccc-17c6-4350-b7c7-b1dd8edb8289">
+				<Name>ИзделияГруппа</Name>
+				<Code>000000012</Code>
+				<Description>Группа изделия</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d2e53408-53c8-48e6-8b2e-77c21873264b">
+				<Name>ИзделияПоКооперации</Name>
+				<Code>000000005</Code>
+				<Description>Изделия по кооперации</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="95c6f279-73b8-4a90-81f5-5ae02e8277e8">
+		<Name>Справочники_ВидыПланов</Name>
+		<Code>000000001</Code>
+		<Description>Виды планов</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="1a3f3331-5fc9-43d1-a637-34ff925e499f">
+				<Name>Кооперация</Name>
+				<Code>000000006</Code>
+				<Description>Кооперация</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="41696885-289c-4be1-abc2-a8aa40417742">
+				<Name>ОбеспечениеМернымиЛентами</Name>
+				<Code>000000009</Code>
+				<Description>Обеспечение мерными лентами</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3dcc71f3-f6fe-4c2d-b405-792f0ccc7ae8">
+				<Name>ПланОтгрузокНаСкладСбыта</Name>
+				<Code>000000002</Code>
+				<Description>План отгрузок на склад сбыта</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="dea30808-305f-4e3c-8c46-347cae02b119">
+		<Name>Справочники_Сценарии</Name>
+		<Code>000000010</Code>
+		<Description>Справочники сценарии бюджетирования</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="1f788ffd-c609-49c3-b2ca-ee5656a7d2a9">
+				<Name>Оперативный</Name>
+				<Code>000000011</Code>
+				<Description>Оперативный</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="3122772c-b056-41fe-9b32-372219fee807">
+		<Name>Справочники_СценарииТоварногоПланирования</Name>
+		<Code>000000007</Code>
+		<Description>Справочники сценарии товарного планирования</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="b54aab43-2e47-4c55-b31f-ed3e0c2ca5f7">
+				<Name>ПроизводствоПоЦехам</Name>
+				<Code>000000008</Code>
+				<Description>Производство по цехам</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="49d4a042-d1fd-4d74-aeb6-3951a96d6549">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТехнологическиеОперации" category="Object">
+				<xr:TypeId>61fb1864-bcee-4c43-be95-294ce7be4c33</xr:TypeId>
+				<xr:ValueId>19148194-1d8e-4a37-98cd-b27933e61054</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТехнологическиеОперации" category="Ref">
+				<xr:TypeId>d9e035af-ec99-456c-be65-efc2dc089300</xr:TypeId>
+				<xr:ValueId>7aa6d2dc-87d4-4e5e-ab63-99ceb4b76b94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТехнологическиеОперации" category="Selection">
+				<xr:TypeId>f0ad0575-0817-45e5-b49f-6f154549c097</xr:TypeId>
+				<xr:ValueId>32145a2c-1c63-498c-80a3-6e4a00063deb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТехнологическиеОперации" category="List">
+				<xr:TypeId>6f5b1509-48c9-459c-b9a7-937a22f3d94f</xr:TypeId>
+				<xr:ValueId>d090f3c9-da1b-4992-9215-ed47f42ffbe4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТехнологическиеОперации" category="Manager">
+				<xr:TypeId>dae63e03-4cbb-4b7e-94cf-9025b4f2782b</xr:TypeId>
+				<xr:ValueId>6510d905-7bc6-43ac-902b-4f67a1bf919a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТехнологическиеОперации</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fb209918-c804-4330-8e42-68c1359a31bd">
+				<Properties>
+					<Name>SB_ВспомогательнаяОперация</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вспомогательная операция</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Операция не участвует в планировании производства и закрытии этапов, не отображается в рабочем месте «Выполнение операций», но выводится в печатных формах.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Form>ФормаОперации</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

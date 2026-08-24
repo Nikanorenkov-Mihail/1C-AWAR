@@ -1,0 +1,20 @@
+{
+  "name": "1c-vector-search",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Векторный поиск по коду и метаданным расширения 1С (BSL + XML)",
+  "scripts": {
+    "index": "tsx src/index.ts",
+    "query": "tsx src/query.ts",
+    "search": "tsx src/query.ts"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="4c732b50-648f-496e-81c2-a407c4e2af87">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РесурсныеСпецификации" category="Object">
+				<xr:TypeId>00a823e5-6597-4755-a355-a72c25966d81</xr:TypeId>
+				<xr:ValueId>a09c5ef2-0946-474d-ace9-1e49a3068dd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РесурсныеСпецификации" category="Ref">
+				<xr:TypeId>69823ecd-d192-441a-920d-66813c803796</xr:TypeId>
+				<xr:ValueId>59f2ae78-eb13-47b8-a959-63b4ace3db27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РесурсныеСпецификации" category="Selection">
+				<xr:TypeId>a70366cb-b3fc-4f7e-b194-8730687f1b38</xr:TypeId>
+				<xr:ValueId>2be6357e-3492-46d8-86dc-96cf04434166</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РесурсныеСпецификации" category="List">
+				<xr:TypeId>b40b9ba0-0677-4896-8e2f-1d399331d72c</xr:TypeId>
+				<xr:ValueId>3d96f5ea-2286-4694-87d5-f370f07356d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РесурсныеСпецификации" category="Manager">
+				<xr:TypeId>993c0c12-b375-4422-baa9-1d4436d06552</xr:TypeId>
+				<xr:ValueId>3d943bd4-a238-4965-857f-75b0fe3c34a2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РесурсныеСпецификации</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="67960f63-8603-4350-a320-937aa53eb3a4">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.РесурсныеСпецификации.МатериалыИУслуги" category="TabularSection">
+						<xr:TypeId>67e203a1-f42a-41d1-b604-2468e174d64e</xr:TypeId>
+						<xr:ValueId>c4152483-527f-41ea-9221-42ed1142291b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.РесурсныеСпецификации.МатериалыИУслуги" category="TabularSectionRow">
+						<xr:TypeId>7b67705d-e763-4e33-af2a-4a6686d4ad82</xr:TypeId>
+						<xr:ValueId>baf73abe-fa59-4d8d-89eb-144afccdc713</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МатериалыИУслуги</Name>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3ee80b0b-4171-4ce1-bba8-00f30acba791">
+						<Properties>
+							<Name>SB_ВиртуальныйУзел</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Виртуальный узел</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Полуфабрикат не отражается отдельным этапом производства: его материалы, возвратные отходы, трудозатраты, виды рабочих центров и операции вливаются в родительский этап.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

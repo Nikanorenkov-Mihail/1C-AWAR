@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="106f9849-5ee1-4256-b02a-7a6954bf4244">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийОтбораРазмещенияТоваров" category="Ref">
+				<xr:TypeId>3ed04eba-5ceb-4681-9a3b-3bad1bed15e8</xr:TypeId>
+				<xr:ValueId>549be05e-98f0-404e-986c-eaeb37b59704</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийОтбораРазмещенияТоваров" category="Manager">
+				<xr:TypeId>b721f8b7-4621-4201-9c5d-2e7135e30d0f</xr:TypeId>
+				<xr:ValueId>0129f0d3-dd30-4308-874c-0ff78e1d2568</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийОтбораРазмещенияТоваров" category="List">
+				<xr:TypeId>975bfbe4-997d-4012-a377-3db27ca8d371</xr:TypeId>
+				<xr:ValueId>ef3e9c31-e269-45f5-9d23-d6bae8a8e6da</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийОтбораРазмещенияТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>de53d3b5-aef6-476d-adcb-5ab27bd5ce7c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="77143377-3492-4978-88e3-803b2caab9f9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Размещение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9770b3d2-99ef-4dc2-b5ac-9aa33b80bfa7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="970c9169-bb2b-417e-b7e5-0ea42ae244d5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Перемещение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e3f9206e-55e3-4b43-83c9-946079f37479</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

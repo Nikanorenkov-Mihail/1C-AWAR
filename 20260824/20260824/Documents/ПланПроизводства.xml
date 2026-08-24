@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a70803c2-ec60-4812-873e-04cc1ab4ab63">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПланПроизводства" category="Object">
+				<xr:TypeId>b06c1e4d-8ccb-4397-a166-fffb1ec32bb7</xr:TypeId>
+				<xr:ValueId>137a8d4b-9ecd-4965-9583-dceafa3dcda3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПланПроизводства" category="Ref">
+				<xr:TypeId>967aa715-2a50-4381-bd41-bbef02e60a82</xr:TypeId>
+				<xr:ValueId>e33b5165-4bf0-4de5-b387-de54b56722d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПланПроизводства" category="Selection">
+				<xr:TypeId>d199c53b-7b8c-4ec0-a898-cfdc2d88c32d</xr:TypeId>
+				<xr:ValueId>fec6f125-9761-413c-8702-bf7736971311</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПланПроизводства" category="List">
+				<xr:TypeId>e354a976-4479-4b01-a2fc-d4067ecca783</xr:TypeId>
+				<xr:ValueId>fe68b910-e067-4a89-9d29-796a6126767a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПланПроизводства" category="Manager">
+				<xr:TypeId>cd3f3668-52b1-437b-8fea-9ef37a9a28ad</xr:TypeId>
+				<xr:ValueId>8342c08b-2626-412b-8f1a-b006f1a4d355</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПланПроизводства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>906a7432-7397-4bc2-b7af-b7decc66bbe7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6d07c88b-5a82-4429-a1c0-d979143345cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбновитьДополнить</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c14ce9cc-5870-479c-877d-ceb513705837</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="88415f5d-9d57-42d1-b445-68909a5c75ae">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПользовательскиеНастройки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ec656b0d-a833-44b2-b836-97787f59bcb5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>v8:ValueStorage</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="92ff8f5d-3ef3-4b37-b353-ff0b63d684d6">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПланПроизводства.Продукция" category="TabularSection">
+						<xr:TypeId>44a4351f-bfd4-4d2f-a477-32917d5802ef</xr:TypeId>
+						<xr:ValueId>3f82de06-5e5f-4122-bf55-9808145a121d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПланПроизводства.Продукция" category="TabularSectionRow">
+						<xr:TypeId>ce44f3c3-ec70-42d7-83e5-422e58ff7f7a</xr:TypeId>
+						<xr:ValueId>8ca06aac-5eb5-4594-8501-f6ac35e0a893</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Продукция</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2e96cbfd-8422-45ae-9c31-5f8d6f0a5562</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="abf6f0ac-89ae-4092-98b0-b03dc32fe9f6">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПланПроизводства.ПравилоЗаполнения" category="TabularSection">
+						<xr:TypeId>cbd3ab7d-d44e-43ab-9f98-1812412ebff3</xr:TypeId>
+						<xr:ValueId>66c51f6a-2f92-4fb6-ba66-0228b93ac74d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПланПроизводства.ПравилоЗаполнения" category="TabularSectionRow">
+						<xr:TypeId>0fe6f7fd-c29b-4683-9826-2a7a7463e54a</xr:TypeId>
+						<xr:ValueId>aaad4608-7ab9-48ef-af90-66d50ed71f2b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПравилоЗаполнения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c7270494-1437-4fb4-84aa-7b0b8bbd19c1</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

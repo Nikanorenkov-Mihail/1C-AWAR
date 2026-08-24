@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Контрагент" id="25">
+			<DataPath>Запись.Контрагент</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поставщик</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="27"/>
+			<Events>
+				<Event name="OnChange">КонтрагентПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Производитель" id="7">
+			<DataPath>Запись.Производитель</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПроизводительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПроизводительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Договор" id="10">
+			<DataPath>Запись.Договор</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДоговорКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="12"/>
+			<Events>
+				<Event name="OnChange">ДоговорПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ТоварнаяКатегория" id="13">
+			<DataPath>Запись.ТоварнаяКатегория</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТоварнаяКатегорияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТоварнаяКатегорияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ГруппаНоменклатуры" id="16">
+			<DataPath>Запись.ГруппаНоменклатуры</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
+			<ContextMenu name="ГруппаНоменклатурыКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ГруппаНоменклатурыРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="СтепеньЗначимости" id="22">
+			<DataPath>Запись.СтепеньЗначимости</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>1</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">1</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>2</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">2</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="СтепеньЗначимостиКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="СтепеньЗначимостиРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<CheckBoxField name="Основной" id="19">
+			<DataPath>Запись.Основной</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ОсновнойКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ОсновнойРасширеннаяПодсказка" id="21"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.СБ_ПоставщикиПоТоварнымКатегориям</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

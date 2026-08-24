@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="0a3558ca-bac2-443c-b87d-47f953c4973d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыИзмеряемыхВеличин" category="Ref">
+				<xr:TypeId>b2347dbf-9809-43bf-a8db-b25d197de14e</xr:TypeId>
+				<xr:ValueId>0ae0bf58-a5e4-485c-8ce7-a6c00dc2290a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыИзмеряемыхВеличин" category="Manager">
+				<xr:TypeId>03a5cb86-2dd2-4f40-810b-76e3a5072190</xr:TypeId>
+				<xr:ValueId>cf5ca838-7152-4751-a45c-a662f6f4b2c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыИзмеряемыхВеличин" category="List">
+				<xr:TypeId>c135af94-4a15-4b78-aa5d-29b95c098ba6</xr:TypeId>
+				<xr:ValueId>563b2c49-a4b5-40b8-a81b-d02be2e9f3d9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыИзмеряемыхВеличин</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8e08535f-af2b-4701-a9ab-64360193f01d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

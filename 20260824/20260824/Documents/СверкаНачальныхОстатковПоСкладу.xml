@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="429df340-219e-450f-971f-f8fb1ef6ef8c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СверкаНачальныхОстатковПоСкладу" category="Object">
+				<xr:TypeId>aef3dbdb-4b55-4458-860a-cbc2b1dff7e4</xr:TypeId>
+				<xr:ValueId>6888510e-3624-4935-8cbd-733f9066f6d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СверкаНачальныхОстатковПоСкладу" category="Ref">
+				<xr:TypeId>b323a125-43fa-411c-a3db-8365c31a4b35</xr:TypeId>
+				<xr:ValueId>3b7b4be7-75cd-40a3-8b92-b4d4713dc813</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СверкаНачальныхОстатковПоСкладу" category="Selection">
+				<xr:TypeId>be8a636b-5e0b-4211-b01c-8e1d34e92d81</xr:TypeId>
+				<xr:ValueId>3eb34a4f-2421-4b73-9f2a-3cc46f0ec705</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СверкаНачальныхОстатковПоСкладу" category="List">
+				<xr:TypeId>8e421aa2-6f7d-4d2e-80de-ff909b227d2d</xr:TypeId>
+				<xr:ValueId>3c94b641-f01e-41cc-bcc4-2916573a889b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СверкаНачальныхОстатковПоСкладу" category="Manager">
+				<xr:TypeId>93a3d528-f958-4790-8050-0e2cc7d53eb6</xr:TypeId>
+				<xr:ValueId>441170ca-95a4-49c3-9d1c-3ca916f9ac18</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СверкаНачальныхОстатковПоСкладу</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cc04039b-7646-4a67-aad9-edaf5fc2b8af</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

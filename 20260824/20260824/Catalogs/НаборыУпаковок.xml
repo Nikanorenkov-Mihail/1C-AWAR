@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="bd25b643-2e19-4030-b135-803a083b2c65">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НаборыУпаковок" category="Object">
+				<xr:TypeId>10387399-1148-496c-ae49-da16e7370de4</xr:TypeId>
+				<xr:ValueId>1154ba89-04e1-492e-9a34-5fdf5c8bc42d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НаборыУпаковок" category="Ref">
+				<xr:TypeId>d1aaa327-9e17-4dbc-9be0-1c5cb0490d5c</xr:TypeId>
+				<xr:ValueId>14b543cc-b24e-4b23-8e81-6a389308832d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НаборыУпаковок" category="Selection">
+				<xr:TypeId>7246020d-eff2-420e-857d-f3186b197c69</xr:TypeId>
+				<xr:ValueId>5f78fb2e-32ff-47e5-b3d2-1b2671468f2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НаборыУпаковок" category="List">
+				<xr:TypeId>c61020f1-9b7a-43f4-9d10-f51633929d2d</xr:TypeId>
+				<xr:ValueId>77d4779e-6acd-42a3-9034-6dddb9a7ff19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НаборыУпаковок" category="Manager">
+				<xr:TypeId>a39b9fb2-bbe7-49fe-a713-1e87e7916c1f</xr:TypeId>
+				<xr:ValueId>fd20010e-5e18-449a-8163-5dd31802a3e8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НаборыУпаковок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f1d6c7cd-7eba-4e2f-b881-f9d5227cbcd0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

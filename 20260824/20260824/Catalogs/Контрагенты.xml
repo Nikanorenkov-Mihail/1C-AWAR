@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="1e8eac13-4bb6-4bc0-a727-0300dda759c9">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Контрагенты" category="Object">
+				<xr:TypeId>dafa269b-e3a8-4b5b-bb9f-12ead4d669f5</xr:TypeId>
+				<xr:ValueId>c42a68c2-402c-4253-9eb7-ae184c190f9b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Контрагенты" category="Ref">
+				<xr:TypeId>0b817d47-d23c-4b96-bf6e-5e7e8178b69f</xr:TypeId>
+				<xr:ValueId>84f2c4df-ca1e-40b9-9181-9112adc15660</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Контрагенты" category="Selection">
+				<xr:TypeId>fd7d747d-a346-4a53-bd6e-1b98fd05aff3</xr:TypeId>
+				<xr:ValueId>e2752c94-7425-40cf-b0ac-06bc8ea5ea28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Контрагенты" category="List">
+				<xr:TypeId>661c3e12-31ea-4a19-ae7b-6ce7cbec426f</xr:TypeId>
+				<xr:ValueId>0d244dbb-fd38-45cf-86ee-b6af9b5cccdc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Контрагенты" category="Manager">
+				<xr:TypeId>cb107a45-ca9a-420e-af51-517a71304ab4</xr:TypeId>
+				<xr:ValueId>53eabb3f-930c-4c5f-9230-aae002e70724</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Контрагенты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4259c461-12b1-4f3e-8283-5927c75afdb6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="669489f6-013f-4fb3-9fa9-1c87deafed50">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГоловнойКонтрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9a4dd8c0-cb11-49ac-a82d-7239dd0e26a5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1b396b24-9c82-4585-8ff1-b1bcc07d6726">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ce59e7d4-ce32-4e73-8b06-cda594aec2b3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="27c56260-ab15-417a-9592-31e013a927bf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИНН</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>489feb46-8450-495a-ab9b-547fdd55c2bc</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ИНН</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5f24ad7f-484a-4019-8e46-58c33451b5c7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЮрФизЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>56ba8e3c-152e-472e-978c-1c8a27110815</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ЮрФизЛицо</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="48591564-73e3-4894-bc1e-e982ce047e2f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбособленноеПодразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>67fc19c3-1b39-455a-a36d-977ccc7986e6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаВыбораИспользуютсяТолькоПартнеры</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

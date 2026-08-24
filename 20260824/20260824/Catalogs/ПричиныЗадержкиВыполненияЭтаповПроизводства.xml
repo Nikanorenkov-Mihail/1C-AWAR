@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="94c30701-4943-4513-bfe6-ae00538c0e66">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПричиныЗадержкиВыполненияЭтаповПроизводства" category="Object">
+				<xr:TypeId>bcfbed3e-b27c-4dc2-9d24-67ea25f84276</xr:TypeId>
+				<xr:ValueId>e8ea5bd5-e440-4a12-a410-506a20fe3fdc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПричиныЗадержкиВыполненияЭтаповПроизводства" category="Ref">
+				<xr:TypeId>aa16859e-0cb7-4963-8d3c-becd777ae778</xr:TypeId>
+				<xr:ValueId>f9dc6b10-4979-4af0-a56d-84d1cb9b81d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПричиныЗадержкиВыполненияЭтаповПроизводства" category="Selection">
+				<xr:TypeId>beb61187-4208-45f9-b6e3-f90e4bc13882</xr:TypeId>
+				<xr:ValueId>fab7ecf4-1716-47f6-a2cc-9ebe6d333d58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПричиныЗадержкиВыполненияЭтаповПроизводства" category="List">
+				<xr:TypeId>4bb5e882-1703-4a91-8837-0e9ded0d6d84</xr:TypeId>
+				<xr:ValueId>fb615810-9590-4d59-8f1a-693692e5f537</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПричиныЗадержкиВыполненияЭтаповПроизводства" category="Manager">
+				<xr:TypeId>3c17aba7-c90b-488a-b766-4ad1a9cfb03f</xr:TypeId>
+				<xr:ValueId>bde564a6-3db2-4464-878e-283aa59cb698</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПричиныЗадержкиВыполненияЭтаповПроизводства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7ad13eee-5b78-429b-8434-4984848d7f20</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

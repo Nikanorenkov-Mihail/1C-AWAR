@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="8aec3fe4-bf26-45e1-9fb2-b60ba855ad3f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.НастройкиАдресногоХранения" category="Ref">
+				<xr:TypeId>f7a5a695-decb-4f6b-aca2-3c88fd28ed2d</xr:TypeId>
+				<xr:ValueId>f6f59cdc-11b3-424c-9888-6d403a8f9fa3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.НастройкиАдресногоХранения" category="Manager">
+				<xr:TypeId>37b17f1f-1b71-41b0-bf53-5a948e035d6b</xr:TypeId>
+				<xr:ValueId>6499c5c9-1bc1-4d8e-90fb-4eced3087cba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.НастройкиАдресногоХранения" category="List">
+				<xr:TypeId>340be8c5-2d8b-4696-83a8-5b0b406aa871</xr:TypeId>
+				<xr:ValueId>d8955a4e-060a-44a2-9ee2-b7a5df9c141d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиАдресногоХранения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7a37f9be-6092-4e0d-aab0-c7994229d110</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="2fc5a87e-f75f-46b8-b086-c0720daf94bd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОпределяетсяНастройкамиПомещения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>547ae60a-335d-4529-8a04-c07afb777818</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e8eb2216-1525-4377-89eb-200e8746c613">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЯчейкиОстатки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ee67d3ea-8ef0-4319-ad37-83a152d02237</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

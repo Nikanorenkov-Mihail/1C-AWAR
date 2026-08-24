@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ИнформацияПоПоставщикам</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Поставщик</dataPath>
+			<field>Поставщик</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоставщикОсновнойМенеджер</dataPath>
+			<field>ПоставщикОсновнойМенеджер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТоварнаяКатегория</dataPath>
+			<field>ТоварнаяКатегория</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Основной</dataPath>
+			<field>Основной</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоставщикСБ_СтепеньЗначимостиПоставщика</dataPath>
+			<field>ПоставщикСБ_СтепеньЗначимостиПоставщика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресЭП</dataPath>
+			<field>АдресЭП</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерТелефона</dataPath>
+			<field>НомерТелефона</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоставщикСБ_ISO9001</dataPath>
+			<field>ПоставщикСБ_ISO9001</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоставщикСБ_IATF16949</dataPath>
+			<field>ПоставщикСБ_IATF16949</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	СБ_ПоставщикиПоТоварнымКатегориям.Поставщик КАК Поставщик,
+	СБ_ПоставщикиПоТоварнымКатегориям.ТоварнаяКатегория КАК ТоварнаяКатегория,
+	СБ_ПоставщикиПоТоварнымКатегориям.Основной КАК Основной,
+	СБ_ПоставщикиПоТоварнымКатегориям.Договор КАК Договор,
+	СБ_ПоставщикиПоТоварнымКатегориям.Поставщик.СБ_СтепеньЗначимостиПоставщика КАК ПоставщикСБ_СтепеньЗначимостиПоставщика,
+	СБ_ПоставщикиПоТоварнымКатегориям.Поставщик.ОсновнойМенеджер КАК ПоставщикОсновнойМенеджер,
+	ПартнерыКонтактнаяИнформация.АдресЭП КАК АдресЭП,
+	ПартнерыКонтактнаяИнформация.НомерТелефона КАК НомерТелефона,
+	СБ_ПоставщикиПоТоварнымКатегориям.Поставщик.СБ_ISO9001 КАК ПоставщикСБ_ISO9001,
+	СБ_ПоставщикиПоТоварнымКатегориям.Поставщик.СБ_IATF16949 КАК ПоставщикСБ_IATF16949
+ИЗ
+	РегистрСведений.СБ_ПоставщикиПоТоварнымКатегориям КАК СБ_ПоставщикиПоТоварнымКатегориям
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Партнеры.КонтактнаяИнформация КАК ПартнерыКонтактнаяИнформация
+		ПО СБ_ПоставщикиПоТоварнымКатегориям.Поставщик = ПартнерыКонтактнаяИнформация.Ссылка</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ИсторияИзменений</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодГод</dataPath>
+			<field>ПериодГод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период год</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Поле2</dataPath>
+			<field>Поле2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодКвартал</dataPath>
+			<field>ПериодКвартал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период квартал</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Поле1</dataPath>
+			<field>Поле1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПланНаГод</dataPath>
+			<field>ПланНаГод</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФактЗаКвартал</dataPath>
+			<field>ФактЗаКвартал</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОценкаПоставщика</dataPath>
+			<field>ОценкаПоставщика</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СБ_ИсторияИзмененийПлан.Период КАК ПериодГод,
+	СБ_ИсторияИзмененийФакт.Период КАК ПериодКвартал,
+	СБ_ИсторияИзмененийПлан.Контрагент КАК Контрагент,
+	СБ_ИсторияИзмененийПлан.ПланНаГод КАК ПланНаГод,
+	СБ_ИсторияИзмененийФакт.ФактЗаКвартал КАК ФактЗаКвартал,
+	СБ_ИсторияИзмененийФакт.ОценкаПоставщика КАК ОценкаПоставщика,
+	КВАРТАЛ(СБ_ИсторияИзмененийФакт.Период) КАК Поле1,
+	ГОД(СБ_ИсторияИзмененийПлан.Период) КАК Поле2
+ИЗ
+	РегистрСведений.СБ_ИсторияИзмененийПлан КАК СБ_ИсторияИзмененийПлан
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СБ_ИсторияИзмененийФакт КАК СБ_ИсторияИзмененийФакт
+		ПО СБ_ИсторияИзмененийПлан.Контрагент = СБ_ИсторияИзмененийФакт.Контрагент
+			И (СБ_ИсторияИзмененийПлан.Период = НАЧАЛОПЕРИОДА(СБ_ИсторияИзмененийФакт.Период, ГОД))
+ГДЕ
+	СБ_ИсторияИзмененийПлан.Период МЕЖДУ &amp;ДатаНачало И &amp;ДатаКонец</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>ИнформацияПоПоставщикам</sourceDataSet>
+		<destinationDataSet>ИсторияИзменений</destinationDataSet>
+		<sourceExpression>Контрагент</sourceExpression>
+		<destinationExpression>Контрагент</destinationExpression>
+	</dataSetLink>
+	<totalField>
+		<dataPath>ФактЗаКвартал</dataPath>
+		<expression>Сумма(ФактЗаКвартал)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОценкаПоставщика</dataPath>
+		<expression>Сумма(ОценкаПоставщика)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаКонец</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата конец</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаНачало</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начало</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+	</settingsVariant>
+</DataCompositionSchema>

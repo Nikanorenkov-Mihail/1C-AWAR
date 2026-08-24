@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="c7f4676e-b199-4675-812d-82c73824124a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыПриходныхОрдеров" category="Ref">
+				<xr:TypeId>edb1de2d-5878-4840-8cec-44590c21140c</xr:TypeId>
+				<xr:ValueId>8f929d73-e40a-4d9f-94d6-85eea8ebccac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыПриходныхОрдеров" category="Manager">
+				<xr:TypeId>e4af8deb-d208-4f70-b911-682652331706</xr:TypeId>
+				<xr:ValueId>833fdc8c-1bc2-471c-a59a-8a799547a098</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыПриходныхОрдеров" category="List">
+				<xr:TypeId>f83aa73d-ce0d-4fc8-a762-004de17f1e05</xr:TypeId>
+				<xr:ValueId>7c017d6e-5ac8-4f9f-b44f-a9d363f5f7cc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыПриходныхОрдеров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>58ab352b-2fda-4618-8f5e-14d83c1300f2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

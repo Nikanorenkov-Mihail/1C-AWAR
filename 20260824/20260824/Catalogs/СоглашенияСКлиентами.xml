@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="d7a90f37-0f47-4d61-9039-5dc16c65ace0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СоглашенияСКлиентами" category="Object">
+				<xr:TypeId>a46c8364-6aa2-4a69-b652-1a5669c3629d</xr:TypeId>
+				<xr:ValueId>b9db6290-aa7a-4514-8a0e-64eadc04d0cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СоглашенияСКлиентами" category="Ref">
+				<xr:TypeId>e99e8ec7-bf9d-4243-9b2e-d2517b97934e</xr:TypeId>
+				<xr:ValueId>d4379f2d-de0f-48a7-a819-09ec28857217</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СоглашенияСКлиентами" category="Selection">
+				<xr:TypeId>a1a7a9d4-3f7c-4e71-b65e-02ea1560e9cf</xr:TypeId>
+				<xr:ValueId>9e275dff-778d-42cb-a2e2-0b5b3e47110d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СоглашенияСКлиентами" category="List">
+				<xr:TypeId>0919f13c-fd2d-4269-b4ae-8beed74cfa7a</xr:TypeId>
+				<xr:ValueId>e58c768b-54c6-4923-971c-296bc77f4ad5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СоглашенияСКлиентами" category="Manager">
+				<xr:TypeId>1404b120-e407-487c-b000-cc8b87f61b54</xr:TypeId>
+				<xr:ValueId>786bc33c-7e2d-4fa5-bd08-e89bd62c2d6b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СоглашенияСКлиентами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2bb5c12e-1217-4c8d-ae01-3a6253cfe429</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

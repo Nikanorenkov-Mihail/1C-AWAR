@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a471f8a8-d9e9-4536-a1dc-48f16d3ad6ca">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОчередьПроизводственныхОпераций" category="Record">
+				<xr:TypeId>bca2bdc7-1e9e-4a17-bec0-d1aa9b254a75</xr:TypeId>
+				<xr:ValueId>0a117c1b-ede9-4328-baba-15c26b134ba4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОчередьПроизводственныхОпераций" category="Manager">
+				<xr:TypeId>32dbc8b3-6cdf-4b19-a271-b048da3489bf</xr:TypeId>
+				<xr:ValueId>e665ddd8-0965-470e-bd9c-12bb3eb0181f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОчередьПроизводственныхОпераций" category="Selection">
+				<xr:TypeId>7d00be65-75e6-4888-bce4-78f6d27ef0cf</xr:TypeId>
+				<xr:ValueId>f248dd1f-6323-4015-84e7-75e8ceaa3451</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОчередьПроизводственныхОпераций" category="List">
+				<xr:TypeId>13963435-87b1-40a2-9034-1be356379fbf</xr:TypeId>
+				<xr:ValueId>94ad4e30-78c9-4fde-9d98-d22d35f13d22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОчередьПроизводственныхОпераций" category="RecordSet">
+				<xr:TypeId>8e4b1490-d7d4-4331-a333-9a28fef7026b</xr:TypeId>
+				<xr:ValueId>92c8aef2-a4c1-4937-9792-d1f92b93678b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОчередьПроизводственныхОпераций" category="RecordKey">
+				<xr:TypeId>301929b3-e22a-418e-82d4-48fcd0f4b7e1</xr:TypeId>
+				<xr:ValueId>cd035369-73b0-4f5a-93f8-d1c5fb73272c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОчередьПроизводственныхОпераций" category="RecordManager">
+				<xr:TypeId>793ad5cd-69fa-4781-a605-71b9d71be1d1</xr:TypeId>
+				<xr:ValueId>96d108fd-c483-4dea-88cf-6faf7636ff25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОчередьПроизводственныхОпераций</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

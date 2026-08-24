@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="79cee90b-667e-461f-968a-71d8cff7352c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыЭтаповПроизводства2_2" category="Ref">
+				<xr:TypeId>4d73d3a3-50f3-4b63-bb6d-0357c42b52df</xr:TypeId>
+				<xr:ValueId>20f6fe8a-b8b6-46ed-8b05-62b365fa7dce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыЭтаповПроизводства2_2" category="Manager">
+				<xr:TypeId>b984fd00-8aa8-4e40-8535-29d016c1aebf</xr:TypeId>
+				<xr:ValueId>b6e57f80-5dad-4ea6-a5c1-657350a2fd6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыЭтаповПроизводства2_2" category="List">
+				<xr:TypeId>8430ba02-6399-4b7d-b264-2fc8978ccba8</xr:TypeId>
+				<xr:ValueId>62109ae6-ca62-415d-906f-2c72268590d8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыЭтаповПроизводства2_2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f8cfe6b7-a92d-45f1-bd06-9154e8657466</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

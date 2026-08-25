@@ -35,6 +35,7 @@
 		</Properties>
 		<ChildObjects>
 			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
+			<Form>ФормаОтчета</Form>
 		</ChildObjects>
 	</Report>
 </MetaDataObject>
